@@ -24,7 +24,7 @@ public class WanderingAI : MonoBehaviour
                 GameObject hitObject = hit.transform.gameObject;
                 if (hitObject.GetComponent<PlayerCharacter>())
                 {
-                    if (hitObject == null)
+                    if (_fireball == null)
                     {
                         _fireball = Instantiate(fireballPrefab) as GameObject;
                         _fireball.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);

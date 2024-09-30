@@ -352,6 +352,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"F:/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"F:/2022.3.46f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/BossAI.cs"
+"Assets/Canon.cs"
 "Assets/Fireball.cs"
 "Assets/FPSInput.cs"
 "Assets/HelloWorld.cs"
@@ -362,6 +364,7 @@
 "Assets/SceneController.cs"
 "Assets/Sphere.cs"
 "Assets/WanderingAI.cs"
+"Assets/WanderingBoss.cs"
 -langversion:9.0
 /deterministic
 /optimize+

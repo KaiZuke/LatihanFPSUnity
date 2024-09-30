@@ -25,9 +25,14 @@ public class RayShooter : MonoBehaviour
             {
                 GameObject hitObject = hit.transform.gameObject;
                 ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
+                WanderingBoss boss = hitObject.GetComponent<WanderingBoss>();
                 if (target != null)
                 {
                     target.ReactToHit();
+                }
+                if (boss != null)
+                {
+                    boss.TakeDamage(1);
                 }
                 else
                 {
